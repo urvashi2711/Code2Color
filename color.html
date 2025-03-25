@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <title>Discord Text Styler</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Discord Text Styler with ANSI Colors">
+    <link rel="stylesheet" href="color.css">
+</head>
+<body>
+
+<h1>Discord <span style="color:#00AFF4;">Text Styler</span></h1>
+
+<div class="container">
+    <h3>About</h3>
+    <p>Style your Discord messages with ANSI colors!</p>
+    <p>Write, colorize, and copy the message for Discord.</p>
+
+    <h3>Source Code</h3>
+    <p>Available on <a href="https://github.com/urvashi2711/Code2Color">GitHub</a></p>
+</div>
+
+<h2>Style your text</h2>
+
+<button data-ansi="0" class="button style-button">Reset</button>
+<button data-ansi="1" class="button style-button ansi-1">Bold</button>
+<button data-ansi="4" class="button style-button ansi-4">Underline</button>
+
+<br><br>
+<strong>FG</strong>
+<button data-ansi="30" class="button style-button ansi-30-bg">&nbsp;</button>
+<button data-ansi="31" class="button style-button ansi-31-bg">&nbsp;</button>
+<button data-ansi="32" class="button style-button ansi-32-bg">&nbsp;</button>
+<button data-ansi="33" class="button style-button ansi-33-bg">&nbsp;</button>
+<button data-ansi="34" class="button style-button ansi-34-bg">&nbsp;</button>
+<button data-ansi="35" class="button style-button ansi-35-bg">&nbsp;</button>
+<button data-ansi="36" class="button style-button ansi-36-bg">&nbsp;</button>
+<button data-ansi="37" class="button style-button ansi-37-bg">&nbsp;</button>
+
+<br><br>
+<strong>BG</strong>
+<button data-ansi="40" class="button style-button ansi-40">&nbsp;</button>
+<button data-ansi="41" class="button style-button ansi-41">&nbsp;</button>
+<button data-ansi="42" class="button style-button ansi-42">&nbsp;</button>
+<button data-ansi="43" class="button style-button ansi-43">&nbsp;</button>
+<button data-ansi="44" class="button style-button ansi-44">&nbsp;</button>
+<button data-ansi="45" class="button style-button ansi-45">&nbsp;</button>
+<button data-ansi="46" class="button style-button ansi-46">&nbsp;</button>
+<button data-ansi="47" class="button style-button ansi-47">&nbsp;</button>
+<br><br>
+
+<div class="flex">
+    <div id="textarea" contenteditable="true">Type your Discord message here...</div>
+</div>
+
+<br>
+<button class="button copy">Copy to Clipboard</button>
+<br>
+<br>
+<small>Unofficial Discord Tool</small>
+<div class="tooltip">Tooltip</div>
+
+<script src="color.js"> </script>
+
+</body>
+</html>
